@@ -6,7 +6,7 @@
     <my-footer></my-footer>
   </div>
 </template>
-<script>
+// <script>
 import Header from './views/layout/Header.vue'
 import Menu from './views/layout/Menu.vue'
 import Content from './views/tuyensinh/index.vue'
