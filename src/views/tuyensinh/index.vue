@@ -54,7 +54,9 @@ export default {
       this.xettuyen_id = "";
     },
     editForm(id){
-      console.log(id, "eee")
+      this.show = true;
+      this.edit=true;
+      this.add=false;
       this.suaxettuyen_id = id;
     }
   }, 
