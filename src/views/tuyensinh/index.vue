@@ -10,12 +10,15 @@
         :add="add"
         :edit="edit"
         :xettuyen_id ="suaxettuyen_id"
-        @evenEdit="editForm"
       ></themsua-xettuyen>
     </h2>
     <div class="container-fluid">
       <div class="row">
-        <xet-tuyen v-for="xettuyen in xettuyens" :key="xettuyen.id" :xettuyen="xettuyen"></xet-tuyen>
+        <xet-tuyen v-for="xettuyen in xettuyens" 
+          :key="xettuyen.id" 
+          :xettuyen="xettuyen"
+           @evenEdit="editForm"
+        ></xet-tuyen>
       </div>
     </div>
   </div>

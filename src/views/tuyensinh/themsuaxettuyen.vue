@@ -44,9 +44,10 @@ export default {
     }
   },
   created () {
-    console.log(this.xettuyen_id)
-    if(this.xettuyen_id != ""){
-      //lay du lieu
+  },
+  watch: {
+    xettuyen_id(value) {
+      console.log(value, "this.xettuyen_id")
     }
   },
 
